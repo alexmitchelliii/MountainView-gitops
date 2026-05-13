@@ -17,6 +17,11 @@
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "📱🔐 Personal mobile devices"
+labels:
+  - name: C-Suite
+    description: This label is applied to all hosts that are used by C-suite executives
+    label_membership_type: manual
+    hosts:
 controls:
   setup_experience:
     ###########################################################
