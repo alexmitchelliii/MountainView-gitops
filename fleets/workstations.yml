@@ -201,7 +201,7 @@ software:
     # …
 settings:
   webhook_settings:
-    failing_policies_webhook: true
+    failing_policies_webhook:
       enable_failing_policies_webhook: true
       destination_url: https://webhook.site/643d1726-5dcc-4dff-88e0-a56ae51b6bda
       host_batch_size: 0
