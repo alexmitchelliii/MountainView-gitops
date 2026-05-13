@@ -1,0 +1,6 @@
+name: Department - Engineering
+description: This label is applied to all hosts that are part of the engineering department
+label_membership_type: host_vitals
+critieria:
+  vital: end_user_idp_department
+  value: Engineering
