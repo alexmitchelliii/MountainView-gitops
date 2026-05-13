@@ -74,11 +74,11 @@ controls:
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
-  settings:
-    webhook_settings:
-      failing_policies_webhook: true
-      destination_url: https://webhook.site/643d1726-5dcc-4dff-88e0-a56ae51b6bda
-      host_batch_size: 0
+settings:
+  webhook_settings:
+    failing_policies_webhook: true
+    destination_url: https://webhook.site/643d1726-5dcc-4dff-88e0-a56ae51b6bda
+    host_batch_size: 0
 
   ###########################################################
   # Managed disk encryption
