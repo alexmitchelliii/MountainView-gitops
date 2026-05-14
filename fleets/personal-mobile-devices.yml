@@ -80,6 +80,9 @@ controls:
 ###########################################################
 software:
   app_store_apps:
+  packages:
+  - path: ../platforms/windows/software/cloudflare-warp.yml
+    self_service: false
     ###########################################################
     # iOS apps
     ###########################################################
